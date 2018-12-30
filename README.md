@@ -5,19 +5,19 @@
 #### Setup virtualenv
 In terminal cd your project directory and type below command to create 
 virtualenv.
-```python
+```Shell
 $ virtualenv venv
 ```
 
 Once virtualenv setup activate it using below command.
 Activate virtualenv
-```python
+```Shell
 $ source venv/bin/activate
 (venv) $ _
 ```
 
 #### Install Flask
-```python
+```Shell
 (venv) $ pip install flask
 ```
 
@@ -27,12 +27,12 @@ $ source venv/bin/activate
 * Create top-level script ```microblog.py``` which defines Flask application instance.
 
 #### Export FLASK_APP environment variable
-```python
+```Shell
 (venv) $ export FLASK_APP=microblog.py
 ```
 
 #### Run application
-```python
+```Shell
 (venv) $ flask run
 ```
 
