@@ -35,4 +35,3 @@ $ source venv/bin/activate
 ```Shell
 (venv) $ flask run
 ```
-
