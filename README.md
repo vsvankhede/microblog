@@ -30,6 +30,10 @@ $ source venv/bin/activate
 ```Shell
 (venv) $ export FLASK_APP=microblog.py
 ```
+#### Export DATABASE_URL environment variable
+```Shell
+(venv) $ export DATABASE_URL="sqlite:////path/to/app.db"
+```
 
 #### Run application
 ```Shell
